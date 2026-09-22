@@ -109,7 +109,7 @@ if number % 2 == 0:
 else:
     print("Число нечётное")
 
-number = int(-8)
+number = int(-7)
 
 # Определение знака
 if number > 0:
@@ -199,14 +199,14 @@ n1 = int(86)
 x1=0
 
 for i1 in range(1,n1):
-    x1 += i
+    x1 += i1
 print(x1)
 
 n2 = int(1345)
 x2=0
 
 for i2 in range(1,n2):
-    x2 += i
+    x2 += i2
 print(x2)
 
 number = int(6)
