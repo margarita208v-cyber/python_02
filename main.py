@@ -191,21 +191,21 @@ for u in range(0,21,5):
 n = int(209)
 x=0
 
-for i in range(1,n):
+for i in range(1,n+1):
     x += i
 print(x)
 
 n1 = int(86)
 x1=0
 
-for i1 in range(1,n1):
+for i1 in range(1,n1+1):
     x1 += i1
 print(x1)
 
 n2 = int(1345)
 x2=0
 
-for i2 in range(1,n2):
+for i2 in range(1,n2+1):
     x2 += i2
 print(x2)
 
