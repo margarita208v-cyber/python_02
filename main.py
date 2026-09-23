@@ -209,17 +209,16 @@ for i2 in range(1,n2+1):
     x2 += i2
 print(x2)
 
-number = int(6)
 
-n = int(8)
+n = int(impunt('Сколько измерений вы хотите: '))
 
-total = 0.0
+total_sum=0
 
 for i in range(1, n + 1):
-    value = float(67)
-    total += value
+    chislo = float(67)
+    total_sum += chislo
 
-sr_ar = total / n if n > 0 else 0.0
+sr_ar = total_sum / n 
 
-print(total)
+print(total_sum)
 print(sr_ar)
