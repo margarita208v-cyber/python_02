@@ -1,6 +1,6 @@
-print('Hello, World!')
+print('Hello, World!') #3
 
-name = 'Магро'
+name = 'Магро' #4
 age = 17
 height = 170
 is_student = True
@@ -10,7 +10,7 @@ print(age)
 print(height)
 print(is_student)
 
-first_name = ('Маргарита')
+first_name = ('Маргарита') #5
 last_name = ('Гуляева')
 
 age_raw = ('17')
@@ -24,7 +24,7 @@ print(last_name)
 print(age, type(age))
 print(height, type(height))
 
-a = 15
+a = 15 #6
 b = 4
 
 x = a - b
@@ -42,7 +42,7 @@ m1 = (2+3) * 4
 
 print(m, m1)
 
-for i in range(1,11):
+for i in range(1,11): #8
     print(i)
 
 for o in range(10,0,-1):
@@ -54,7 +54,7 @@ for t in range(0,21):
 for u in range(0,21,5):
     print(u)
 
-count = 10
+count = 10 #10
 print(count) 
 
 while count >= 1:
@@ -62,7 +62,7 @@ while count >= 1:
     print(count)
 print('Цикл завершен')
 
-import math
+import math #11
 
 radius = 5
 
@@ -77,7 +77,7 @@ number = 16.0
 sqrt_value = math.sqrt(number)
 print(sqrt_value)
 
-number = int(0)
+number = int(0) # 12
 
 # Определение знака
 if number > 0:
@@ -125,7 +125,7 @@ if number % 2 == 0:
 else:
     print("Число нечётное")
 
-age = 17
+age = 17 #13
 has_access = True
 
 print(age)
@@ -147,27 +147,8 @@ if age1 >= 18 and has_access1:
 else:
     print("Доступ запрещён")
 
-name = 'Магро'
-age = 17
-height = 170
-is_student = True
 
-print(type(name))
-print(type(age))
-print(type(height))
-print(type(is_student))
-
-name = 'Магро'
-age = 67
-height = 654
-is_student = True
-
-print(type(name), name)
-print(type(age), age)
-print(type(height), height)
-print(type(is_student), is_student)
-
-a = float(156)
+a = float(156) #7
 b = float(4)
 c = float(67589)
 d = float(123)
@@ -188,7 +169,7 @@ print(xr, xr1, xr2, xr3)
 for u in range(0,21,5):
     print(u)
 
-n = int(209)
+n = int(209) #9
 x=0
 
 for i in range(1,n+1):
@@ -210,7 +191,7 @@ for i2 in range(1,n2+1):
 print(x2)
 
 
-n = int(input('Сколько измерений вы хотите: '))
+n = int(input('Сколько измерений вы хотите: ')) #14
 
 total_sum=0
 
